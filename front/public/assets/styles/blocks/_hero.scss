@@ -1,0 +1,22 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  &__title {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1.36;
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    max-width: 500px;
+  }
+  &__button {
+    align-self: start;
+    margin-bottom: 71px;
+  }
+  &__image {
+    width: 100%;
+  }
+}

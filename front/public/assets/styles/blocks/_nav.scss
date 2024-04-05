@@ -1,0 +1,11 @@
+.nav {
+  padding-top: 26px;
+  padding-bottom: 70px;
+  margin-bottom: 70px;
+  &__list {
+    display: flex;
+    column-gap: 33px;
+    justify-content: end;
+    padding: 27px 125px 0 0;
+  }
+}

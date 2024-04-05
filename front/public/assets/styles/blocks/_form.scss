@@ -1,0 +1,78 @@
+.sign-in__form,
+.sign-up__form {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  &-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1.5rem;
+    background-color: #21243d;
+    color: #fff;
+    padding: 2rem;
+    border-radius: 0 15px 105px 0;
+    min-height: 600px;
+    min-width: 400px;
+    @include tablet {
+      border-radius: 15px;
+    }
+  }
+}
+.sign-up__form {
+  position: relative;
+  &-inner {
+    border-radius: 15px;
+  }
+}
+
+.login-image {
+  border-radius: 105px 0 0 15px;
+  margin-top: -16px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  &__label {
+    color: var(--color-gray);
+    text-transform: capitalize;
+  }
+  &__control {
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin: 0.25rem;
+    min-width: 125px;
+    padding: 0.5rem;
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 0 2px var(--color-secondary);
+    }
+  }
+}
+
+.form {
+  &__title {
+    text-align: center;
+    font-size: 46px;
+    line-height: 1.5;
+  }
+  &__info {
+    text-align: center;
+  }
+  &__info-registration {
+    color: var(--color-primary);
+    text-decoration: underline;
+    &:hover {
+      color: var(--color-secondary);
+    }
+  }
+  &__button {
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 0 2px var(--color-secondary);
+    }
+  }
+}

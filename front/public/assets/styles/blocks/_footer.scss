@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    row-gap: 26px;
+  }
+  &__soc1als {
+    display: flex;
+    column-gap: 35px;
+  }
+  &__copyright {
+    font-size: 14px;
+    margin-bottom: 54px;
+  }
+}

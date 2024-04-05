@@ -1,0 +1,39 @@
+.posts {
+  background-color: var(--color-light);
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__title {
+    font-size: 22px;
+    padding-block: 20px;
+    line-height: 2.73;
+  }
+  &__view-all {
+    color: var(--color-secondary);
+  }
+  &__cards {
+    display: flex;
+    column-gap: 20px;
+  }
+  &__card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 17px;
+    background-color: #fff;
+    padding: 24px 21px 24px 23px;
+    border-radius: 4px;
+    margin-bottom: 32px;
+
+    &-title {
+      font-size: 26px;
+      font-weight: 700;
+    }
+    &-tags {
+      display: flex;
+      column-gap: 26px;
+      font-size: 18px;
+    }
+  }
+}
