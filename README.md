@@ -2,8 +2,8 @@
 ## React, Redux, Redux-persist, Express, MongoDB
 
 <p>to initialize the project</p> 
-install dependencies in front and back folder 
-cd token/front ; npm i ;
+<p>install dependencies in front and back folder</p> 
+**cd token/front ; npm i ;**<br/>
 cd token/back ; npm i ;
 expand docker containers
 docker-compose up;
