@@ -1,4 +1,5 @@
-#1 Registration, Authentication and Authorization with Json Web Token 
+# Registration, Authentication and Authorization with Json Web Token 
+## React, Redux, Redux-persist, Express, MongoDB
 
 to initialize the project 
 install dependencies in front and back folder 
