@@ -7,4 +7,5 @@
 <strong>cd token/back ; npm install </strong><br>
 
 <p>expand docker containers</p><br>
+
 <strong>docker-compose up</strong>
