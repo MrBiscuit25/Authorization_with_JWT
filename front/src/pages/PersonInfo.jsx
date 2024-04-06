@@ -1,13 +1,17 @@
 import Nav from "./Nav";
+import { useSelector } from "react-redux";
+import { selectCurrentUser } from "../store/authSlice";
 
 const PersonInfo = () => {
+  const user = useSelector(selectCurrentUser);
+  console.log(user);
   return (
     <>
       <Nav />
       <section className="hero container">
         <div className="hero__info">
           <div className="hero__title">
-            Hi, I am John, Creative Technologist
+            Hi, I am {user}, Creative Technologist
           </div>
           <p>
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
