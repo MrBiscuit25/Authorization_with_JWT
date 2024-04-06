@@ -3,7 +3,7 @@
 
 <p>to initialize the project</p> 
 <p>install dependencies in front and back folder</p> 
-**cd token/front ; npm i ;**<br/>
+<strong></strong>cd token/front ; npm i ;<strong/><br/>
 cd token/back ; npm i ;
 expand docker containers
 docker-compose up;
