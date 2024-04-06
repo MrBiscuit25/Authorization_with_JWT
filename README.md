@@ -1,5 +1,5 @@
 # Registration, Authentication and Authorization with Access and Refresh tokens
-## React, Redux, Redux-persist, Express, MongoDB
+## React, Redux, RTK Query ,Redux-persist, Express, MongoDB
 
 <p>to initialize the project<br>
 install dependencies in front and back folder</p> 
