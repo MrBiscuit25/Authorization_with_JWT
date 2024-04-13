@@ -3,4 +3,4 @@
 
 
 to run the project 
-<strong>docker-compose up</strong>
+<strong>docker compose up</strong>
